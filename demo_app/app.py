@@ -8,7 +8,7 @@ from sklearn.metrics import mean_squared_error
 from lightgbm import LGBMRegressor
 
 # File Paths
-model_path = "rf_model.sav"
+model_path = "lgbm_model.sav"
 encoding_path = "cat_encods.json"
 component_config_path = "component_configs.json"
 
